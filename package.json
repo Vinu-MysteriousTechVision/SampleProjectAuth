@@ -1,0 +1,42 @@
+{
+  "name": "SampleProjectAuth",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "tslint -t codeFrame src/**/*.ts{,x} --fix",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-keyboard-aware-scroll-view": "^0.6.0",
+    "react-native-navigation": "^2.0.2314",
+    "react-native-svg": "^6.3.1",
+    "react-native-svg-charts": "^5.2.0",
+    "react-native-view-pager": "^0.2.3",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0",
+    "typescript-fsa": "^3.0.0-beta-2",
+    "typescript-fsa-reducers": "^0.4.5",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.18",
+    "@types/react-native": "^0.55.21",
+    "@types/react-native-svg-charts": "^5.0.1",
+    "@types/react-redux": "^6.0.2",
+    "babel-jest": "23.0.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.1.0",
+    "react-native-typescript-transformer": "^1.2.10",
+    "react-test-renderer": "16.3.1",
+    "tslint-react": "^3.6.0",
+    "typescript": "^2.9.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

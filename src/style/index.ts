@@ -1,0 +1,7 @@
+export * from './colors'
+export * from './fontStyles'
+export * from './drawerStyles'
+export * from './homeStyles'
+export * from './pastResultDetailsStyle'
+export * from './commonStyles'
+export * from './loginStyle'
